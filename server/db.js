@@ -1,3 +1,12 @@
+//
+// db.js
+// Created by Scott Mitchell on 04/26/2025
+// Block 34 - The Acme reservation Planner
+//
+// This file contains the database connection and CRUD operations for the Acme reservation planner.
+// It uses the pg library to connect to a PostgreSQL database and perform SQL queries.
+//
+
 const pg = require("pg");
 
 // Database client

@@ -1,3 +1,14 @@
+//
+// Server.js
+// Created by Scott Mitchell on 04/24/2025
+// Block 34 - The Acme reservation Planner
+//
+// This file contains the server code for the Acme reservation planner.
+// It sets up an Express server, connects to a PostgreSQL database,
+//  and defines routes for managing customers, restaurants, and reservations.
+// It also includes an init function to test the database connection and CRUD operations.
+//
+
 const express = require("express");
 const {
   client,
